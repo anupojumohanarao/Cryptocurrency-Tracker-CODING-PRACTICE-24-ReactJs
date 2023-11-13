@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.main-crypto-currency-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.cryptocurrency-img {
+  height: 40%;
+  width: 40%;
+}
+
+.list-header {
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  background-color: #092e33;
+  justify-content: space-between;
+}
+
+.list-coin-type-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.usd-and-euro-values-container {
+  display: flex;
+  padding: 10px;
+}
+
+.list-coin-value-heading {
+  color: #ffffff;
+  margin: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.cryptocurrencies-list-container {
+  border: 4px solid #00e7ff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cryptocurrencies-list {
+  margin: 10px;
+}
